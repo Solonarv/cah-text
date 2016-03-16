@@ -1,0 +1,22 @@
+Name:           cah-text
+Version:        0.1.0
+Stability:      alpha
+Cabal-Version:  >= 1.2
+License:        MIT
+License-File:   LICENSE
+Author:         Nicolas Stamm
+Homepage:       https://github.com/Solonarv/cah-text
+Bug-Reports:    https://github.com/Solonarv/cah-text/issues
+    
+Tested-With:    GHC == 7.10.3
+Build-Type:     Simple
+Synopsis:       A text-based client/server for Cards Against Humanity-like games
+
+Source-Repository head
+    type: git
+    location: git://github.com/Solonarv/cah-text.git
+
+Library
+    Build-Depends:  base, text, connection, bytestring
+    Exposed-Modules:
+        CaHLike.Text
